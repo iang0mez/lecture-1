@@ -16,5 +16,108 @@
 
 body {
   font-family: 'Lato', sans-serif;
-  background-color: var(--background-color);
+  background-color: var(--primary-color);
+}
+
+.container {
+  background-color: var(--secondary-color);
+  display: flex;
+  width: 600px;
+  margin: 50px auto;
+  border-radius: 20px;
+  overflow: hidden;
+  border-radius: 7px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.img-container img{
+  width: 300px;
+  margin: 50px 10px 0px 0px;
+}
+
+.size-container {
+  margin: 20px 20px 50px;
+}
+
+.size-container .sub-heading {
+  color: var(--sub-heading-color);
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+ li {
+  list-style: none;
+ }
+
+.size-container ul {
+  display: flex;
+}
+
+.size-container li {
+  width: 35px;
+  height: 35px;
+  border: var(--sub-heading-color) 1px solid;
+  margin-right: 2px;
+  color: var(--sub-heading-color);
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-heading {
+  color: var(--sub-heading-color);
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 5px;
+}
+
+.info .sub-heading {
+  margin-top: 50px;
+}
+
+.info .heading {
+  font-size: 22px;
+  color: var(--text-color);
+  font-weight: bold;
+}
+
+.info .price {
+  font-size: 24px;
+  margin: 10px 0px 20px;
+  color: var(--components-color);
+  font-weight: bold;
+}
+
+.info .description {
+  font-size: 11px;
+  color: var(--text-color);
+  word-spacing: 7px;
+  width: 90%;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.button-container button {
+  height: 40px;
+  background-color: var(--components-color);
+  border: none;
+  margin-right: 2px;
+  border-radius: 3px;
+}
+
+.button button {
+  width: 140px;
+  font-size: 14px;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.like button {
+  width: 50px;
 }
